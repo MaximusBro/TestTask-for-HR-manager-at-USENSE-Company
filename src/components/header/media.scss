@@ -1,0 +1,14 @@
+.header {
+	@media screen and (max-width: 612px) {
+		.wrapper {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		&-currecy {
+			font-size: 14px;
+			&__list {
+				gap: 25px;
+			}
+		}
+	}
+}

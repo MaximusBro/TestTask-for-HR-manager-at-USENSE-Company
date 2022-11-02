@@ -1,0 +1,18 @@
+.header {
+	min-height: 50px;
+	background: linear-gradient(21deg, #dd03e4, #5611ec);
+	padding: 15px 0;
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&-currecy {
+		font-size: 20px;
+		&__list {
+			display: flex;
+			gap: 50px;
+			text-align: center;
+		}
+	}
+}
